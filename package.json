@@ -1,0 +1,37 @@
+{
+  "name": "car-computer",
+  "version": "0.0.1",
+  "description": "Car computer",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Olav Kokovkin <olav.kokovkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-hot-loader": "^3.0.0-beta.1",
+    "react-redux": "^4.1.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "^1.0.3",
+    "redux-devtools": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015-loose": "^6.1.3",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "node-libs-browser": "^0.5.2",
+    "redux-devtools-dock-monitor": "^1.0.1",
+    "redux-devtools-log-monitor": "^1.0.2",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
