@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import counter from './counter';
-import { routerReducer } from 'react-router-redux';
+import { routerStateReducer } from 'redux-router';
 
 const rootReducer = combineReducers({
   counter,
-  routing: routerReducer,
+  router: routerStateReducer,
 });
 
 export default rootReducer;

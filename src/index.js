@@ -3,7 +3,16 @@ import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import configureStore from './store/configureStore';
 import Root from './containers/Root';
+import { push } from 'redux-router';
 const store = configureStore();
+
+window.setScreen = function setScreen(n) {
+  if (n === 1) {
+    store.dispatch(push({ pathname: '/counter' }));
+  } else {
+    store.dispatch(push({ pathname: '/' }));
+  }
+}
 
 render(
   <AppContainer>
